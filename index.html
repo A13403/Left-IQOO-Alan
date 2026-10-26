@@ -199,18 +199,18 @@ body{background:var(--bg);display:flex;align-items:center;justify-content:center
 .ct{text-align:center;font-size:12.5px;color:#a8a8a8;margin:14px 0 12px}
 .cr{display:flex;align-items:flex-start;gap:8px;margin:12px 0}.cr.me{justify-content:flex-end}
 .cr .av{width:42px;height:42px;border-radius:6px;flex:none}
-.b{position:relative;padding:10px 12px;border-radius:6px;font-size:clamp(12px,4vw,16px);line-height:1.4;width:fit-content;max-width:min(calc(15em + 24px),calc(100% - 66px));min-width:0;word-break:break-all;overflow-wrap:anywhere;display:block;white-space:normal}
+.b{position:relative;padding:10px 12px;border-radius:6px;font-size:16px;line-height:1.45;width:fit-content;max-width:min(calc(15em + 24px),calc(100% - 66px));min-width:0;word-break:break-all;overflow-wrap:anywhere;display:block;white-space:normal}
 .b .emj,.b .dog{display:inline-block;width:1.35em;height:1.35em;object-fit:contain;vertical-align:-0.28em;margin:0;flex:none}
 .b img:not(.emj):not(.dog){vertical-align:middle}
 .th .b{background:#fff}.me .b{background:#95ec69}
 .b .emj + .emj,.b .dog + .dog{margin-left:-.08em}
-@media (max-width:420px){.b{padding:9px 10px;max-width:min(calc(15em + 20px),calc(100% - 58px));font-size:clamp(12px,3.8vw,15px)}.cr{gap:7px;margin:10px 0}.cr .av{width:38px;height:38px}}
+@media (max-width:420px){.b{padding:9px 10px;max-width:min(calc(15em + 20px),calc(100% - 58px));font-size:16px}.cr{gap:7px;margin:10px 0}.cr .av{width:38px;height:38px}}
 .th .b::after,.me .b::after{content:"";position:absolute;top:14px;border:6px solid transparent}
 .th .b::after{left:-10px;border-right-color:#fff}.me .b::after{right:-10px;border-left-color:#95ec69}
 .vb{min-height:42px;display:flex;align-items:center;gap:10px;padding:8px 12px;box-sizing:border-box;white-space:nowrap}.me .vb{justify-content:flex-end}.th .vb{justify-content:flex-start}.voice-icon{display:block;width:22px;height:28px;object-fit:contain;flex:none;vertical-align:middle}
 .vi{width:20px;height:20px;fill:#111;stroke:#111;stroke-width:1.6;stroke-linecap:round}
 .cam2,.phone2{width:24px;height:24px;flex:none}.cam2{fill:none;stroke:#222;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}.phone-crop{width:27px;height:27px;object-fit:contain}
-.callb{display:inline-flex;align-items:center;gap:8px;width:fit-content;max-width:min(calc(15em + 24px),calc(100% - 66px));min-width:0;flex:0 1 auto;box-sizing:border-box}.callb span{white-space:normal;min-width:0;overflow-wrap:anywhere}.callb.cme{flex-direction:row-reverse}.me .callb svg,.me .callb img{transform:scaleX(-1)}\n.cont{align-self:center;font-size:12px;background:#e0e0e0;color:#777;border-radius:12px;padding:3px 10px}
+.callb{display:inline-flex;align-items:center;gap:8px;width:fit-content;max-width:min(calc(15em + 24px),calc(100% - 66px));min-width:0;flex:0 1 auto;box-sizing:border-box}.callb span{font-size:16px;line-height:1.45;letter-spacing:normal;word-spacing:normal;white-space:normal;min-width:0;overflow-wrap:anywhere}.callb.cme{flex-direction:row-reverse}.me .callb svg,.me .callb img{transform:scaleX(-1)}\n.cont{align-self:center;font-size:12px;background:#e0e0e0;color:#777;border-radius:12px;padding:3px 10px}
 .cbar{display:flex;align-items:center;gap:10px;padding:8px 10px 34px;background:#f7f7f7;border-top:1px solid #e0e0e0}
 .cbar svg{width:30px;height:30px;flex:none}
 .hold{flex:1;height:38px;border-radius:6px;background:#fff;border:1px solid #d6d6d6;display:grid;place-items:center;font-size:16px;font-weight:600;color:#222}
@@ -374,10 +374,8 @@ body{background:var(--bg);display:flex;align-items:center;justify-content:center
 .b.pic{padding:0;background:none!important;max-width:58%}.b.pic::after{display:none!important}
 .b.pic img{display:block;width:100%;max-width:170px;border-radius:7px}
 .b .dog{height:22px;margin:0 1px}
-.emj{width:1.28em;height:1.28em;vertical-align:-.28em;margin:0 .04em} .b{overflow-wrap:anywhere} .b, .ct{font-variant-emoji:emoji}
+.emj{width:1.28em;height:1.28em;vertical-align:-.28em;margin:0 .04em} .b{overflow-wrap:anywhere} 
 
-/* 仅恢复微信聊天时间分隔行的紧凑字形，不改其他数字或组件 */
-.ct{font-size:12.5px!important;font-weight:400!important;letter-spacing:normal!important;word-spacing:normal!important;font-variant-numeric:normal!important;font-stretch:normal!important;transform:none!important}
 .voice-icon.flip-wave{transform:scaleX(-1)!important}\n</style>
 </head>
 <body>
